@@ -18,6 +18,8 @@ namespace _3DRunnerOOP.Inputs
             _playerInput.currentActionMap.actions[0].performed += OnHorizontalMove;
         }
 
+       
+
         private void OnHorizontalMove(InputAction.CallbackContext context)
         {
             Horizontal = context.ReadValue<float>();
