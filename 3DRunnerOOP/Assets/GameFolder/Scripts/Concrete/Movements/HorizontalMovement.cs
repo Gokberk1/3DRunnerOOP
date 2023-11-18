@@ -27,8 +27,6 @@ namespace _3DRunnerOOP.Movements
             else
             {
                 _playerController.transform.Translate(Vector3.right * horizontal * _moveSpeed * Time.deltaTime);
-
-               
             }
             float xBoundary = Mathf.Clamp(_playerController.transform.position.x, -_moveBoundary, _moveBoundary);
 

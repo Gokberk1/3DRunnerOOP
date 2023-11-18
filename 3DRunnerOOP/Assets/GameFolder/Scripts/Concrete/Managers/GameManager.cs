@@ -61,7 +61,6 @@ namespace _3DRunnerOOP.Managers
 
         public void ExitGame()
         {
-            Debug.Log("exit button clicked");
             Application.Quit();
         }
     }

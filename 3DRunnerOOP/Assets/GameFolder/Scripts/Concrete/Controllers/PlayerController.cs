@@ -7,6 +7,7 @@ using _3DRunnerOOP.Abstract.Inputs;
 using _3DRunnerOOP.Inputs;
 using UnityEngine.InputSystem;
 using _3DRunnerOOP.Managers;
+using TouchPhase = UnityEngine.TouchPhase;
 
 namespace _3DRunnerOOP.Controllers
 {
